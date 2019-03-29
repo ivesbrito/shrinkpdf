@@ -1,5 +1,6 @@
 # shrinkpdf
 Shrinkpdf: shrink PDF files with Ghostscript
+--
 
 A simple wrapper around Ghostscript to shrink PDFs (as in reduce filesize) under Linux. Inspired by some code I found in an OpenOffice Python script (I think). The script feeds a PDF through Ghostscript, which performs lossy recompression by such methods as downsampling the images to 72dpi. The result should be (but not always is) a much smaller file.
 
@@ -28,6 +29,7 @@ The script is licensed under the BSD 3-clause license.
 I didn't invent the wheel, just packaged it nicely. All credits go to the Ghostscript team.
 
 Many thanks to Dr. Alun J. Carr for fixing a portability issue on Mac OS X regarding leading whitespace in the output of wc.
+___
 
 Text from http://www.alfredklomp.com.
 All credits of this code for aklomp (https://github.com/aklomp).
