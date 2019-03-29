@@ -1,4 +1,3 @@
-# shrinkpdf
 Shrinkpdf: shrink PDF files with Ghostscript
 --
 
@@ -32,5 +31,7 @@ Many thanks to Dr. Alun J. Carr for fixing a portability issue on Mac OS X regar
 ___
 
 Text from http://www.alfredklomp.com.
+
 All credits of this code for aklomp (https://github.com/aklomp).
+
 Thanks so much!
